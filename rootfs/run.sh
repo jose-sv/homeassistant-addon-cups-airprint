@@ -12,9 +12,6 @@ rm -v -fR /etc/cups
 
 ln -v -s /data/cups /etc/cups
 
-bashio::log.info "Installing MF3010 drivers"
-yes | sudo /drivers/linux-UFRII-drv-v600-us/install.sh
-
 bashio::log.info "Starting CUPS server as CMD from S6"
 
 cupsd -f
