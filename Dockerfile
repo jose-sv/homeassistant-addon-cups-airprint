@@ -41,7 +41,6 @@ RUN useradd \
 && sed -i '/%sudo[[:space:]]/ s/ALL[[:space:]]*$/NOPASSWD:ALL/' /etc/sudoers
 
 RUN chmod +x /drivers/linux-UFRII-drv-v600-us/install.sh
-RUN /drivers/linux-UFRII-drv-v600-us/install.sh
 
 EXPOSE 631
 
