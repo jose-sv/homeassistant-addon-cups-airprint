@@ -1,5 +1,7 @@
-# homeassistant addon cups airprint
+# CUPS based print server
 CUPS addon with working Avahi in reflector mode
+
+Forked from [zajac-grzegorz's addon](https://github.com/zajac-grzegorz/homeassistant-addon-cups-airprint)
 
 Tested with Home Assistant version **2024.12.2**
 
