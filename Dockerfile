@@ -15,15 +15,8 @@ RUN apt-get update \
         dbus \
         colord \
         printer-driver-all \
-        printer-driver-brlaser \
         printer-driver-gutenprint \
         openprinting-ppds \
-        hpijs-ppds \
-        hp-ppd  \
-        hplip \
-        printer-driver-hpcups \
-        printer-driver-foo2zjs \
-        printer-driver-escpr \
         cups-pdf \
         gnupg2 \
         lsb-release \
