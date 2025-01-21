@@ -40,8 +40,10 @@ RUN useradd \
   print \
 && sed -i '/%sudo[[:space:]]/ s/ALL[[:space:]]*$/NOPASSWD:ALL/' /etc/sudoers
 
-RUN chmod +x /drivers/linux-UFRII-drv-v600-us/install.sh \
-&& /drivers/linux-UFRII-drv-v600-us/install.sh
+RUN dpkg -i /drivers/linux-UFRII-drv-v600-us/ARM64/Debian/cnrdrvcups-ufr2-us_6.00-1.02_arm64.deb
+
+# RUN chmod +x /drivers/linux-UFRII-drv-v600-us/install.sh \
+# && /drivers/linux-UFRII-drv-v600-us/install.sh
 
 EXPOSE 631
 
